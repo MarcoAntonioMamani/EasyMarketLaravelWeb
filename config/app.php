@@ -152,10 +152,10 @@ return [
         /*
          * Application Service Providers...
          */
-        MicroMercado\Providers\AppServiceProvider::class,
-        MicroMercado\Providers\AuthServiceProvider::class,
-        MicroMercado\Providers\EventServiceProvider::class,
-        MicroMercado\Providers\RouteServiceProvider::class,
+        EasyMarket\Providers\AppServiceProvider::class,
+        EasyMarket\Providers\AuthServiceProvider::class,
+        EasyMarket\Providers\EventServiceProvider::class,
+        EasyMarket\Providers\RouteServiceProvider::class,
 
     ],
 

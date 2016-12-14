@@ -1,6 +1,6 @@
 <?php
 
-namespace MicroMercado\Providers;
+namespace EasyMarket\Providers;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'MicroMercado\Events\SomeEvent' => [
-            'MicroMercado\Listeners\EventListener',
+        'EasyMarket\Events\SomeEvent' => [
+            'EasyMarket\Listeners\EventListener',
         ],
     ];
 

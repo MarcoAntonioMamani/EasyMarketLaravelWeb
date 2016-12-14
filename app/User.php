@@ -1,6 +1,6 @@
 <?php
 
-namespace MicroMercado;
+namespace EasyMarket;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 

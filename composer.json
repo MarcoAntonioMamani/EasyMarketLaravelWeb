@@ -21,7 +21,7 @@
             "database"
         ],
         "psr-4": {
-            "MicroMercado\\": "app/"
+            "EasyMarket\\": "app/"
         }
     },
     "autoload-dev": {

@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => MicroMercado\User::class,
+            'model' => EasyMarket\User::class,
         ],
 
         // 'users' => [

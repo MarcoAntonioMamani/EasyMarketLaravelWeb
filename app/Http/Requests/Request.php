@@ -1,6 +1,6 @@
 <?php
 
-namespace MicroMercado\Http\Requests;
+namespace EasyMarket\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
