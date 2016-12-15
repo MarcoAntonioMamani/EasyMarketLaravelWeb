@@ -1,10 +1,10 @@
 <?php
 
-namespace MicroMercado\Http\Controllers\Auth;
+namespace EasyMarket\Http\Controllers\Auth;
 
-use MicroMercado\User;
+use EasyMarket\User;
 use Validator;
-use MicroMercado\Http\Controllers\Controller;
+use EasyMarket\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

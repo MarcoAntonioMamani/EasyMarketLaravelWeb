@@ -1,6 +1,6 @@
 <?php
 
-namespace MicroMercado\Exceptions;
+namespace EasyMarket\Exceptions;
 
 use Exception;
 use Illuminate\Validation\ValidationException;

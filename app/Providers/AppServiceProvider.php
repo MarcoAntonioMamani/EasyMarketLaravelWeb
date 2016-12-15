@@ -1,6 +1,6 @@
 <?php
 
-namespace MicroMercado\Providers;
+namespace EasyMarket\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
