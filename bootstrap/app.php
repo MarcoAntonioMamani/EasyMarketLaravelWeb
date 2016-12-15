@@ -28,17 +28,17 @@ $app = new Illuminate\Foundation\Application(
 
 $app->singleton(
     Illuminate\Contracts\Http\Kernel::class,
-    MicroMercado\Http\Kernel::class
+    EasyMarket\Http\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
-    MicroMercado\Console\Kernel::class
+    EasyMarket\Console\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
-    MicroMercado\Exceptions\Handler::class
+    EasyMarket\Exceptions\Handler::class
 );
 
 /*

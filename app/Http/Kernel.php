@@ -1,6 +1,6 @@
 <?php
 
-namespace MicroMercado\Http;
+namespace EasyMarket\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -24,11 +24,11 @@ class Kernel extends HttpKernel
      */
     protected $middlewareGroups = [
         'web' => [
-            \MicroMercado\Http\Middleware\EncryptCookies::class,
+            \EasyMarket\Http\Middleware\EncryptCookies::class,
             \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
             \Illuminate\Session\Middleware\StartSession::class,
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-            \MicroMercado\Http\Middleware\VerifyCsrfToken::class,
+            \EasyMarket\Http\Middleware\VerifyCsrfToken::class,
         ],
 
         'api' => [
@@ -44,10 +44,10 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => \MicroMercado\Http\Middleware\Authenticate::class,
+        'auth' => \EasyMarket\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'can' => \Illuminate\Foundation\Http\Middleware\Authorize::class,
-        'guest' => \MicroMercado\Http\Middleware\RedirectIfAuthenticated::class,
+        'guest' => \EasyMarket\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
     ];
 }

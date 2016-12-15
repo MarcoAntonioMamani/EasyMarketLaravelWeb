@@ -1,6 +1,6 @@
 <?php
 
-namespace MicroMercado\Jobs;
+namespace EasyMarket\Jobs;
 
 use Illuminate\Bus\Queueable;
 

@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => MicroMercado\User::class,
+        'model' => EasyMarket\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

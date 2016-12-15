@@ -1,6 +1,6 @@
 <?php
 
-namespace MicroMercado;
+namespace EasyMarket;
 
 use Illuminate\Database\Eloquent\Model;
 
