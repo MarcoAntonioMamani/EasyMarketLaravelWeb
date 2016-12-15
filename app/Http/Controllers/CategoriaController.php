@@ -1,14 +1,14 @@
 <?php
 
-namespace EasyMarket\Http\Controllers;
+namespace MicroMercado\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use EasyMarket\Http\Requests;
+use MicroMercado\Http\Requests;
 
-use EasyMarket\Categoria;
+use MicroMercado\Categoria;
 use Illuminate\Support\Facades\Redirect;
-use EasyMarket\Http\Requests\CategoriaFormRequest;
+use MicroMercado\Http\Requests\CategoriaFormRequest;
 use DB;
 class CategoriaController extends Controller
 {

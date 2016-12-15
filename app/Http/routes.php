@@ -13,13 +13,16 @@
 
 Route::get('/', function () {
     return view('welcome');
+    
 });
 
 Route::auth();
-
 Route::get('/home', 'HomeController@index');
 Route::get('/redirect','SocialAuthController@redirect');
 Route::get('/callback','SocialAuthController@callback');
+<<<<<<< HEAD
 Route::resource('almacen/categoria','CategoriaController');
 Route::resource('almacen/producto', 'ProductoController');
+=======
+>>>>>>> refs/remotes/origin/HistoriaDeUsuarioProductos
 
