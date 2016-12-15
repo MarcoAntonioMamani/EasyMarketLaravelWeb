@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "256f2aadf7cec24100164ec81011af9d",
-    "content-hash": "205d3bac84374f9c6c594422171fdb10",
+    "hash": "cfee42c5f3ac93ffb1edff908f2c0bb8",
+    "content-hash": "20c856ba84eb3ba4faba687b59448143",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -160,6 +160,61 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "genealabs/phpgmaps",
+            "version": "0.3.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GeneaLabs/Phpgmaps.git",
+                "reference": "d258433d0491226597e7cd62b7ca388c35afe943"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GeneaLabs/Phpgmaps/zipball/d258433d0491226597e7cd62b7ca388c35afe943",
+                "reference": "d258433d0491226597e7cd62b7ca388c35afe943",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-laravel4": "1.0-dev",
+                    "dev-develop": "2.0-dev",
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GeneaLabs\\Phpgmaps\\": "src/GeneaLabs/Phpgmaps/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Bronner",
+                    "email": "mike@genealabs.com",
+                    "role": "maintainer"
+                },
+                {
+                    "name": "Michael Hopkins",
+                    "role": "developer"
+                }
+            ],
+            "description": "Laravel implementation of BIOSTALL's CodeIgniter Google Maps API, originally by Michael Hopkins at Appitventures.",
+            "keywords": [
+                "biostall",
+                "googlemaps",
+                "laravel",
+                "phpgmaps"
+            ],
+            "time": "2016-08-07 20:39:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1416,7 +1471,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -3403,16 +3458,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "f2300ba8fbb002c028710b92e1906e7457410693"
+                "reference": "a7095af4b97a0955f85c8989106c249fa649011f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/f2300ba8fbb002c028710b92e1906e7457410693",
-                "reference": "f2300ba8fbb002c028710b92e1906e7457410693",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/a7095af4b97a0955f85c8989106c249fa649011f",
+                "reference": "a7095af4b97a0955f85c8989106c249fa649011f",
                 "shasum": ""
             },
             "require": {
@@ -3454,7 +3509,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-18 21:17:59"
+            "time": "2016-12-10 10:07:06"
         },
         {
             "name": "webmozart/assert",

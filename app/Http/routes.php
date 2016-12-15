@@ -19,3 +19,7 @@ Route::auth();
 Route::get('/home', 'HomeController@index');
 Route::get('/redirect','SocialAuthController@redirect');
 Route::get('/callback','SocialAuthController@callback');
+
+Route::resource('enviador','EnviadorController');
+
+Route::get('/gmaps', ['as ' => 'gmaps', 'uses' => 'GmapsController@index']);
