@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "256f2aadf7cec24100164ec81011af9d",
-    "content-hash": "205d3bac84374f9c6c594422171fdb10",
+    "hash": "9125108992eca0d79ba7d74b8d41a385",
+    "content-hash": "4edfa88fb9ea12b0ed59c64d210d3673",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -660,6 +660,60 @@
                 "oauth"
             ],
             "time": "2016-11-01 18:49:10"
+        },
+        {
+            "name": "laravelcollective/html",
+            "version": "v5.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelCollective/html.git",
+                "reference": "3a312d39ffe37da0f57b602618b61fd07c1fcec5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/3a312d39ffe37da0f57b602618b61fd07c1fcec5",
+                "reference": "3a312d39ffe37da0f57b602618b61fd07c1fcec5",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "5.2.*",
+                "illuminate/routing": "5.2.*",
+                "illuminate/session": "5.2.*",
+                "illuminate/support": "5.2.*",
+                "illuminate/view": "5.2.*",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "illuminate/database": "5.2.*",
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Collective\\Html\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                },
+                {
+                    "name": "Adam Engebretson",
+                    "email": "adam@laravelcollective.com"
+                }
+            ],
+            "description": "HTML and Form Builders for the Laravel Framework",
+            "homepage": "http://laravelcollective.com",
+            "time": "2016-01-27 22:29:54"
         },
         {
             "name": "league/flysystem",
@@ -1416,7 +1470,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -3403,16 +3457,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "f2300ba8fbb002c028710b92e1906e7457410693"
+                "reference": "a7095af4b97a0955f85c8989106c249fa649011f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/f2300ba8fbb002c028710b92e1906e7457410693",
-                "reference": "f2300ba8fbb002c028710b92e1906e7457410693",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/a7095af4b97a0955f85c8989106c249fa649011f",
+                "reference": "a7095af4b97a0955f85c8989106c249fa649011f",
                 "shasum": ""
             },
             "require": {
@@ -3454,7 +3508,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-18 21:17:59"
+            "time": "2016-12-10 10:07:06"
         },
         {
             "name": "webmozart/assert",

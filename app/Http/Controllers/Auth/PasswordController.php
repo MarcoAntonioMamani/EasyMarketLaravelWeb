@@ -1,8 +1,8 @@
 <?php
 
-namespace MicroMercado\Http\Controllers\Auth;
+namespace EasyMarket\Http\Controllers\Auth;
 
-use MicroMercado\Http\Controllers\Controller;
+use EasyMarket\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller

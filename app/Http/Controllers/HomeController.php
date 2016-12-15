@@ -1,8 +1,8 @@
 <?php
 
-namespace MicroMercado\Http\Controllers;
+namespace EasyMarket\Http\Controllers;
 
-use MicroMercado\Http\Requests;
+use EasyMarket\Http\Requests;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller

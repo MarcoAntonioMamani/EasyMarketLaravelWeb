@@ -1,12 +1,12 @@
 <?php
 
-namespace MicroMercado\Http\Controllers;
+namespace EasyMarket\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use MicroMercado\Http\Requests;
+use EasyMarket\Http\Requests;
 use Socialite;
-use MicroMercado\SocialAccountService;
+use EasyMarket\SocialAccountService;
 class SocialAuthController extends Controller
 {
     //
@@ -14,7 +14,9 @@ class SocialAuthController extends Controller
     	return Socialite::driver('facebook')->redirect();
     }
     public function callback(SocialAccountService $service) {
+
 	 $user = $service->createOrGetUser(Socialite::driver('facebook')->user()); auth()->login($user);
+	  
 	  return redirect()->to('/home');
 	 } 
 	 

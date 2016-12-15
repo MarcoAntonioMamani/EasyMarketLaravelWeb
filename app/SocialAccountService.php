@@ -1,5 +1,5 @@
 <?php 
-namespace MicroMercado;
+namespace EasyMarket;
  use Laravel\Socialite\Contracts\User as ProviderUser; 
  class SocialAccountService { 
 
