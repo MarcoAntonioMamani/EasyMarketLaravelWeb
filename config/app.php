@@ -156,7 +156,10 @@ return [
         EasyMarket\Providers\AuthServiceProvider::class,
         EasyMarket\Providers\EventServiceProvider::class,
         EasyMarket\Providers\RouteServiceProvider::class,
+<<<<<<< HEAD
         Collective\Html\HtmlServiceProvider::class,
+=======
+>>>>>>> refs/remotes/origin/HistoriaDeUsuarioCategoria
 
     ],
 
