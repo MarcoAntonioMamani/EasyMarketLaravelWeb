@@ -1,6 +1,6 @@
 <?php
 
-namespace MicroMercado\Console\Commands;
+namespace EasyMarket\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

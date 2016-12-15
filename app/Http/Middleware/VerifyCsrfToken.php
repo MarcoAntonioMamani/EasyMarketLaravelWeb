@@ -1,6 +1,6 @@
 <?php
 
-namespace MicroMercado\Http\Middleware;
+namespace EasyMarket\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;
 
