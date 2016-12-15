@@ -1,10 +1,10 @@
 <?php
 
-namespace MicroMercado\Http\Controllers;
+namespace EasyMarket\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use MicroMercado\Http\Requests;
+use EasyMarket\Http\Requests;
 
 class GmapsController extends Controller
 {
