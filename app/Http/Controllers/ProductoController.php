@@ -19,7 +19,7 @@ class ProductoController extends Controller {
             $query = trim($request->get('searchText'));
             $productos = DB::table('producto')->where('descripcion', 'LIKE', '%' . $query . '%')
                     ->orderBy('idPro', 'desc')
-                    ->paginate(4);
+                    ->paginate(3);
             return view('almacen.producto.index', ['productos' => $productos, 'searchText' => $query]);
         }
     }
