@@ -22,4 +22,13 @@ Route::get('/redirect','SocialAuthController@redirect');
 Route::get('/callback','SocialAuthController@callback');
 Route::resource('almacen/categoria','CategoriaController');
 Route::resource('almacen/producto', 'ProductoController');
+Route::resource('cliente', 'ClienteController');
+
+Route::get('pedidos', 'FrontController@vistadepedido');
+Route::POST('listarPedidos', 'PedidoController@listarpedido');
+Route::get('productodetallepedido/{id}', 'PedidoController@listaproductodetallepedido');
+Route::get('nuevoPedidos/{id}', 'FrontController@pedidonuevo');
+Route::resource('Detallepedido', 'DetallePedidoController');
+Route::get('detallepedidos/{id}', 'DetallePedidoController@productocondetalledeventa');
+Route::resource('pedidos1', 'PedidoController');
 

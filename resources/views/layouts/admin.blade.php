@@ -106,7 +106,7 @@
                                 <span>Personal</span>
                             </a>
                             <ul class="treeview-menu">
-                                <li><a href="{{url('enviador')}}">Enviadores<i class="fa fa-motorcycle pull-right"></i></a></li>
+                                <li><a href="#">Enviadores<i class="fa fa-motorcycle pull-right"></i></a></li>
                             </ul>
                         </li>
 
