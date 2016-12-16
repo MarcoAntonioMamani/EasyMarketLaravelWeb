@@ -19,7 +19,9 @@ Route::get('/', function () {
 Route::auth();
 Route::get('/home', 'HomeController@index');
 Route::get('/redirect','SocialAuthController@redirect');
+
 Route::get('/callback','SocialAuthController@callback');
 Route::resource('almacen/categoria','CategoriaController');
 Route::resource('almacen/producto', 'ProductoController');
+Route::resource('cliente','ClienteController');
 
