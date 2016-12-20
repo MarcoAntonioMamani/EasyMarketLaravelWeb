@@ -6,7 +6,6 @@ use EasyMarket\Http\Requests;
 use Illuminate\Http\Request;
 use DB;
 
-
 class HomeController extends Controller
 {
     /**
@@ -27,28 +26,14 @@ class HomeController extends Controller
      */
     public function index()
     {
-
         return view('home');
-    
     }
-
-
-
 
     public function mapaCalor()
-
     {
-
-        //$pedido = DB::table('pedido')->where('fecha','like','%%/08%%%%%')->get();
-
         $pedido = DB::table('pedido')->get();
         return view('mapa.mapaCalor',compact('pedido'));
-
-
-
-
     }
-
 
     public function indexa(Request $request){
         if($request)
@@ -59,26 +44,10 @@ class HomeController extends Controller
         }
     }
 
-
-
-
     public function mapaMarker()
-
     {
-
-        //$pedido = DB::table('pedido')->where('fecha','like','%%/08%%%%%')->get();
-
         $pedido = DB::table('pedido')->get();
         return view('mapa.mapaMarker',compact('pedido'));
-
     }
-
-
-
-
-
-
-
-
 
 }

@@ -148,6 +148,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class,
+		GeneaLabs\Phpgmaps\PhpgmapsServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -203,8 +204,13 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Socialite'=>Laravel\Socialite\Facades\Socialite::class,
+
+		 	
+		'Gmaps' => GeneaLabs\Phpgmaps\Facades\PhpgmapsFacade::class,
+
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+
 
     ],
 

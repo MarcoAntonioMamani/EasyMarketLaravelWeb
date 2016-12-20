@@ -115,11 +115,7 @@
                                 <i class="fa fa-users"></i> <span>Clientes</span>
                             </a>
                         </li>
-
-
-
-
-                       <li class="treeview">
+                        <li class="treeview">
                             <a href="#">
                                 <i class="fa fa-map"></i>
                                 <span>Mapas</span>
@@ -129,11 +125,6 @@
                                 <li><a href="{{ url('mapa/mapaMarker') }}">Mapa de pedidos<i class="fa fa-map-marker pull-right"></i> </a></li>
                             </ul>
                         </li>
-
-
-
-                        
-
                         <li class="treeview">
                             <a href="#">
                                 <i class="fa fa-folder"></i> <span>Acceso</span>
