@@ -84,8 +84,8 @@
 
 
 		<div class="form-group">
-			<button class="btn btn-primary" type="submit">Guardar</button>
-			<button class="btn btn-primary-danger" type="reset">Cancelar</button>
+			<button class="btn btn-success" type="submit">Guardar</button>
+			<button class="btn btn-warning" type="reset">Cancelar</button>
 
 		
 		</div>

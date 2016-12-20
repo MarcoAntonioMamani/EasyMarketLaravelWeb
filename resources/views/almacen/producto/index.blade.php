@@ -4,8 +4,7 @@
 <div class="row">
     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
         <h3>Listado de Productos <a href="producto/create">
-                <button class="btn btn-soundcloud">
-                    <i class="fa fa-btn fa-plus"></i>Nuevo</button></a></h3>
+                <button class="fa fa-btn fa-plus">Nuevo</button></a></h3>
         @include('almacen.producto.search')
     </div>
 </div>

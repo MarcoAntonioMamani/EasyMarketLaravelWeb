@@ -9,7 +9,7 @@
             <h3>Listado de Pedidos</h3>
         </div>
     </div>
-    <table id="tablacategoria" class="table table-striped table-bordered table-hover">
+    <table id="tablacategoria" class="table table-striped table-hover">
         <thead>
         <th>ID</th>
         <th>Fecha</th>

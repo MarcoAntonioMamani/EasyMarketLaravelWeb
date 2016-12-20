@@ -2,7 +2,7 @@
 @section('contenido')
 <div class=row>
 	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-		<h3> Listado de Enviadores <a href="enviador/create"><button class="btn btn-sucess">Nuevo</button></a></h3>
+		<h3> Listado de Enviadores <a href="enviador/create"><button class="fa fa-btn fa-plus">Nuevo</button></a></h3>
 		@include('enviador.search')
 	</div>
 </div>
@@ -16,12 +16,9 @@
 					<th>Nombre</th>
 					<th>Direccion</th>
 					<th>Fecha Nacimiento</th>
-
 					<th>Imagen</th>
-
 					<th>Correo</th>
-					<th>Contraseña</th>
-					<th>Opciones</th>
+					<th>Operacion</th>
 				</thead>
 
 				
@@ -38,22 +35,17 @@
 						</td>
 
 						<td>{{ $env->correo}}</td>
-						<td>{{ $env->contrasena}}</td>
 						<td>
-							<a href="{{URL::action('EnviadorController@edit',$env->idEnviador)}}"><button class="btn btn-info">Editar</button></a>
-							<a href=""><button class="btn btn-info">Eliminar</button></a>
-						</td>
-						
+                        &nbsp;&nbsp;
+                        <a href="{{URL::action('EnviadorController@edit',$env->idEnviador)}}"><i class="fa fa-btn fa-pencil"></i></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href=""data-target="#modal-delete-{{$env->idEnviador}}" data-toggle="modal"><i class="fa fa-btn fa-trash"></i></a>
+                    </td>
 					</tr>
-					
 					@endforeach
-				
 			</table>
-			
-
 		</div>
 		{{$enviadores->render()}}
-		
 	</div>
 </div>
 

@@ -24,8 +24,8 @@
             <input type="text" name="descripcion" class="form-control" value="{{$categoria->descripcion}}" placeholder="Descripcion...">
         </div>    
         <div class="form-group">
-            <button class="btn btn-primary" type="submit"><i class="fa fa-btn fa-refresh"></i>Guardar</button>
-            <button class="btn btn-danger" type="reset"><i class="fa fa-btn fa-reply"></i>Cancelar</button>
+            <button class="btn btn-success" type="submit"><i class="fa fa-btn fa-refresh"></i>Guardar</button>
+            <button class="btn btn-warning" type="reset"><i class="fa fa-btn fa-reply"></i>Cancelar</button>
         </div>
 
         {!!Form::close()!!}		
