@@ -1,14 +1,14 @@
 <?php
 
-namespace MicroMercado\Http\Controllers;
+namespace EasyMarket\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use MicroMercado\Http\Requests;
-use MicroMercado\Enviador;
+use EasyMarket\Http\Requests;
+use EasyMarket\Enviador;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Input;
-use MicroMercado\Http\Requests\EnviadorFormRequest;
+use EasyMarket\Http\Requests\EnviadorFormRequest;
 use DB;
 
 class EnviadorController extends Controller
