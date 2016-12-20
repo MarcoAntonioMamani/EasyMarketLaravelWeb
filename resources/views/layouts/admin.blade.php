@@ -116,6 +116,20 @@
                             </a>
                         </li>
 
+
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-map"></i>
+                                <span>Mapas</span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="{{ url('mapa/mapaCalor') }}">Mapa de calor<i class="fa fa-map-o pull-right"></i></a></li>
+                                <li><a href="{{ url('mapa/mapaMarker') }}">Mapa de pedidos<i class="fa fa-map-marker pull-right"></i> </a></li>
+                            </ul>
+                        </li>
+
+
+
                         <li class="treeview">
                             <a href="#">
                                 <i class="fa fa-folder"></i> <span>Acceso</span>

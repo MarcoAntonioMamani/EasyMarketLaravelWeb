@@ -24,8 +24,11 @@ Route::get('/callback','SocialAuthController@callback');
 
 Route::resource('enviador','EnviadorController');
 
-Route::get('/gmaps', ['as ' => 'gmaps', 'uses' => 'GmapsController@index']);
+
+//Route::get('/gmaps', ['as ' => 'gmaps', 'uses' => 'GmapsController@index']);
 
 Route::resource('almacen/categoria','CategoriaController');
 Route::resource('almacen/producto', 'ProductoController');
 
+Route::get('mapa/mapaCalor', 'HomeController@mapaCalor');
+Route::get('mapa/mapaMarker', 'HomeController@mapaMarker');

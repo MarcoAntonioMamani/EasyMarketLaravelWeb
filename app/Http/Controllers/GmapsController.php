@@ -11,6 +11,8 @@ class GmapsController extends Controller
  public function index()
     {
         //configuaración
+
+      
         $config = array();
         $config['center'] = 'auto';
         $config['map_width'] = 400;
@@ -37,6 +39,11 @@ class GmapsController extends Controller
         //Devolver vista con datos del mapa
         return view('gmaps', compact('map'));
     }
+
+
+
+
+
  
  
 }
