@@ -34,4 +34,7 @@ Route::resource('Detallepedido', 'DetallePedidoController');
 Route::get('detallepedidos/{id}', 'DetallePedidoController@productocondetalledeventa');
 Route::resource('pedidos1', 'PedidoController');
 
+Route::get('mapa/mapaCalor', 'HomeController@mapaCalor');
+Route::get('mapa/mapaMarker', 'HomeController@mapaMarker');
+
 
