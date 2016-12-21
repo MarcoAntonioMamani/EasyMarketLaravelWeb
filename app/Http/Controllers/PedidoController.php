@@ -10,7 +10,11 @@ use DB;
 use Carbon\Carbon;
 
 class PedidoController extends Controller {
-    public function __construct() {}
+      public function __construct()
+    {
+        $this->middleware('auth');
+
+    }
 
     public function destroy($id) {
         DB::table('pedido')->where('idPedido', $id)->delete();
